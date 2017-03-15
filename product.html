@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Лайтикс</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=cyrillic" rel="stylesheet">
+	<link media="all" rel="stylesheet" href="styles/main.css">
+</head>
+<body class="common-home">
+<header>
+	<div class="header_top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<ul class="list-inline header_top-list">
+						<li class="phone_number"><i class="fa fa-phone hidden-xs" aria-hidden="true"></i> 8-800-200-20-20</li>
+						<li>
+							<a href="#callback" class="callback-link">Обратный звонок</a>
+						</li>
+						<li><i class="fa fa-map-marker hidden-xs" aria-hidden="true"></i>Доставка по всей России</li>
+						<li><i class="fa fa-clock-o hidden-xs" aria-hidden="true"></i>Работаем с 8:00 до 22:00</li>
+					    <li class="dropdown">
+					       	<a id="dLabel" data-target="#" href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Личный кабинет</a>
+					        <ul class="dropdown-menu" aria-labelledby="dLabel">
+							    <li><a href="">Вход</a></li>
+							    <li><a href="">Регистрация</a></li>
+							</ul>
+					    </li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<div id="search" class="search">
+						<input type="text" name="search" value="" placeholder="Поиск"  id="search-field" class="search-field" />
+					</div>
+				</div>  
+			</div>
+		</div>
+	</div>
+	<div class="header_bottom">
+	  	<div class="container">
+		    <div class="row">
+		      	<div class="col-md-4 col-sm-12 col-xs-12">
+		        	<div id="logo">
+		            	<a href=""><img src="img/logo-header.png" class="img-responsive" /></a>
+		       		</div>
+		        </div>
+		        <div class="col-md-6 col-sm-8 col-xs-6">
+					<nav class="navbar navbar-default" role="navigation">
+		                <div class="navbar-header">
+		                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		                        <span class="sr-only">Toggle navigation</span>
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>
+		                    </button>
+		                </div>
+		                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		                    <ul class="nav navbar-nav"> 
+		                  		<li><span class="catalog-opener closed">Каталог</span></li>   
+		                        <li><a href="">Акции</a></li>     
+		                        <li><a href="">О нас</a></li>
+		                        <li><a href="">Статьи</a></li>
+		                        <li><a href="">Оплата и доставка</a></li>
+		                        <li><a href="">Контакты</a></li>
+		                    </ul>
+		                </div>
+		            </nav>
+		        </div>
+		        <div class="col-md-2 col-sm-4 col-xs-6">
+		        	<div id="cart">
+		        		<div class="cart-block dropdown-toggle" data-toggle="dropdown" data-loading-text="Пожалуйста, подождите" aria-expanded="true"> 
+		        			<p>Корзина<p>
+		        			<p class="qt">100</p>
+		        		</div>
+		  				<ul class="dropdown-menu pull-right">
+		        			<li>
+		      					<p class="text-center">Ваша корзина пуста!</p>
+		   					</li>
+		      			</ul>
+		        	</div>
+			    </div>
+	        </div>
+	    </div>
+	    <div class="catalog-nav">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-md-3">
+	    				<p>СВЕТОДИОДНАЯ ПРОДУКЦИЯ</p>
+	    				<ul>
+		    				<li><a href="">Светодиодные лампы серии Филамент</a></li>
+		    				<li><a href="">Светодиодные лампы серии Эко</a></li>
+		    				<li><a href="">Светодиодные лампы серии Эко Диммируемые</a></li>
+		    				<li><a href="">Светодиодные ленты, драйверы, коннекторы</a></li>
+		    				<li><a href="">Светодиодные лампы серии Филамент</a></li>
+		    				<li><a href="">Светодиодные лампы серии Эко</a></li>
+		    				<li><a href="">Светодиодные лампы серии Эко Диммируемые</a></li>
+		    				<li><a href="">Светодиодные ленты, драйверы, коннекторы</a></li>
+						</ul>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<p>ЭНЕРГОСБЕРЕГАЮЩИЕ ЛАМПЫ</p>
+	    				<ul>
+	    					<li><a href="">Энергосберегающие лампы GFSP</a></li>
+	    					<li><a href="">Энергосберегающие лампы GFSP</a></li>
+	    					<li><a href="">Энергосберегающие лампы GFSP</a></li>
+	    				</ul>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<p>ГАЛОГЕННЫЕ ЛАМПЫ</p>
+	    				<ul>
+	    					<li><a href="">Галогенные лампы G-JCDR (230 B)</a></li>
+	    					<li><a href="">Галогенные лампы G-JC (12 B)</a></li>
+	    					<li><a href="">Галогенные лампы G-JCDR (230 B)</a></li>
+	    					<li><a href="">Галогенные лампы G-JC (12 B)</a></li>
+	    					<li><a href="">Галогенные лампы G-JCDR (230 B)</a></li>
+	    					<li><a href="">Галогенные лампы G-JCDR (230 B)</a></li>
+	    					<li><a href="">Галогенные лампы G-JC (12 B)</a></li>
+	    					<li><a href="">Галогенные лампы G-JCDR (230 B)</a></li>
+	    				</ul>
+	    			</div>
+	    			<div class="col-md-3">
+	    				<p>СТРАТЕРЫ ДЛЯ ЛЮМИНИСЦЕНТНЫХ ЛАМП</p>
+	    				<ul>
+	    					<li><a href="">FS-U</a></li>
+	    					<li><a href="">FS-2</a></li>
+	    				</ul>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<a href="" class="link-full_width">Справочкая информация и сертификаты</a>
+		</div>
+    </div>
+</header>
+	<div class="page-title">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<h2>Светодиодная продукция H2</h2>
+				</div>
+				<div class="col-md-5">
+					<ol class="breadcrumb-b">
+                        <li><a href="">Главная страница</a></li>
+                        <li><a href="">Второй уровень</a></li>
+                		<li><span>Третий уровень</span></li>
+                	</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="content">
+		<div class="container">
+			<div class="row">
+                <div class="col-md-4">
+                    <ul class="thumbnails">
+                    	<li class="main-image">
+                    		<a class="thumbnail" href="img/product-img02.jpg" title="">
+                    			<img src="img/product-img02.jpg" title="" alt="">
+                    		</a>
+                    	</li>
+                        <li class="image-additional">
+                        	<a class="thumbnail" href="img/product-img.jpg" title=""> 
+                        		<img src="img/product-img.jpg" title="" alt="">
+                        	</a>
+                        </li>
+						<li class="image-additional">
+							<a class="thumbnail" href="http://demo.opencart.com/image/cache/catalog/demo/hp_1-500x500.jpg" title=""> 
+								<img src="http://demo.opencart.com/image/cache/catalog/demo/hp_1-74x74.jpg" title="" alt="">
+							</a>
+						</li>
+						<li class="image-additional">
+							<a class="thumbnail" href="http://demo.opencart.com/image/cache/catalog/demo/compaq_presario-500x500.jpg" title=""> 
+								<img src="http://demo.opencart.com/image/cache/catalog/demo/compaq_presario-74x74.jpg" title="" alt="">
+							</a>
+						</li>
+                    </ul>
+                    <div class="price_block">
+                    	<span>ЦЕНА:&nbsp;</span>
+                    	<span class="price">1000 р.</span>
+                    </div>
+                    <div class="quantity">
+                       	<label class="control-label" for="input_quantity">Количество:</label>
+                    	<input type="text" id="input_quantity" name="quantity" value="1" class="input_quantity">
+                    </div>
+                    <button type="button" id="button-cart" data-loading-text="Пожалуйста, подождите" class="buy-btn">Добавить в корзину</button>
+                    <button type="button" id="one-click" data-loading-text="Пожалуйста, подождите" class="one_click-btn">Купить в один клик</button>
+                </div>
+                <div class="col-md-8">
+            		<h1>H1 ЛАМПА СД LED-T8-STD 24ВТ G13 4000К 1920ЛМ 1500ММ МАТОВАЯ</h1>
+                	<div class="product-rev">
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i> 
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <span>3 отзыва</span>
+                	</div>
+                	<div class="description">
+			            <ul class="list-unstyled">
+	                        <li><strong>Артикул:&nbsp;</strong>4622508090121288</li>
+	                    	<li><strong>Мощность:&nbsp;</strong>24 (Вт)</li>
+	                    	<li><strong>Тип цоколя:&nbsp;</strong>G13</li>
+	                    	<li><strong>Цветовая температура:&nbsp;</strong>4000К (белый</li>
+	                	</ul>
+            		    <p class="description-title">Описание</p>
+            			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam error sint optio alias minus, nisi officia, aperiam dignissimos molestias necessitatibus. Temporibus, possimus laudantium iure. Veniam voluptatum laudantium natus enim.</p>
+            			<p class="description-title">Преимущества</p>
+            			<ul class="product-advantage">
+            				<li>LED-T8R-standard 10Вт имеет поворотный цоколь, что позволяет использовать лампу в различных светильниках</li>
+            				<li>тип светодиода — SMD</li>
+            				<li>коэффициент пульсации менее 5%</li>
+            				<li>форма и размеры стандартных линейных люминесцентных ламп T8</li>
+            				<li>устойчивы к механическим воздействиям (тряска, вибрация)</li>
+            				<li>класс энергоэффективности — А</li>
+            			</ul>
+            			<p class="description-title">Технические характеристики</p>
+            			<div class="table-responsive">
+	            			<table class="table technical-table">
+	            				<tr>
+	            					<td>Колба</td>
+	            					<td>T8</td>
+	            				</tr>
+	            				<tr>
+	            					<td>Напряжение, В</td>
+	            					<td>210-240</td>
+	            				</tr>
+	            				<tr>
+	            					<td>Частота, Гц</td>
+	            					<td>50</td>
+	            				</tr>
+	            				<tr>
+	            					<td>Световой поток, Лм</td>
+	            					<td>1920</td>
+	            				</tr>
+	            				<tr>
+	            					<td>Тип источника света</td>
+	            					<td>SMD</td>
+	            				</tr>
+	            				<tr>
+	            					<td>Класс энергетической эффективности</td>
+	            					<td>A</td>
+	            				</tr>
+	            				<tr>
+	            					<td>Срок службы</td>
+	            					<td>30000 часов</td>
+	            				</tr>
+	            				<tr>
+	            					<td>Гарантийный срок, г</td>
+	            					<td>2 года</td>
+	            				</tr>
+	            			</table>
+            			</div>
+            		</div>
+                </div>
+      		</div>
+		</div>
+		<div class="reviews">
+			<div class="container">
+				<div class="title">
+					<p>Отзывы о товаре</p>
+					<a href="" class="write_review-btn">Написать отзыв</a>
+				</div>
+				<div class="review-item">
+                    <div class="col-lg-1 col-md-2 col-sm-2 hidden-xs">  
+                        <div style="background-image: url('img/client-photo.jpg');" class="clients-photo"></div>
+            		</div>
+                	<div class="col-lg-11 col-md-10 col-sm-10 col-xs-12 comment">
+            			<p class="comment_author">Василий</p>
+            			<div class="stars">
+            			 	<span>Оценка сервиса:</span>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="comment_date">01.09.2016</div>
+            			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam unde error quod voluptatum non, architecto quisquam, voluptatibus numquam distinctio necessitatibus illum ducimus? Molestiae, architecto, dolores nam quidem laboriosam corporis nulla.</p>
+        			</div>
+            	</div>
+            	<div class="review-item">
+                   	<div class="col-lg-1 col-md-2 col-sm-2 hidden-xs">  
+                        <div style="background-image: url('img/client-photo.jpg');" class="clients-photo"></div>
+            		</div>
+                	<div class="col-lg-11 col-md-10 col-sm-10 col-xs-12 comment">
+            			<p class="comment_author">Василий</p>
+            			 <div class="stars">
+            			 	<span>Оценка сервиса:</span>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="comment_date">01.09.2016</div>
+            			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam unde error quod voluptatum non, architecto quisquam, voluptatibus numquam distinctio necessitatibus illum ducimus? Molestiae, architecto, dolores nam quidem laboriosam corporis nulla.</p>
+        			</div>
+            	</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="title">
+				<p>Похожие товары</p>
+			</div>
+			<div class="product-layout similar-products row">
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="product_item">
+						<div class="product_item-top">
+							<a href="" class="product-name">Лампа СД LED-СВЕЧА на ВЕТРУ-STD 3.5ВТ Е27 4000К 320ЛМ ASD</a>
+						</div>
+						<a href="" class="product_item-img">
+							<img src="img/product-img.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="product_item-bottom">
+							<p class="price">1000 р.</p>
+							<button type="button" class="add-to-cart btn-default">Купить</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="product_item">
+						<div class="product_item-top">
+							<a href="" class="product-name">Лампа СД LED-СВЕЧА на ВЕТРУ-STD 3.5ВТ Е27 4000К 320ЛМ ASD</a>
+						</div>
+						<a href="" class="product_item-img">
+							<img src="img/product-img.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="product_item-bottom">
+							<p class="price">1000 р.</p>
+							<button type="button" class="add-to-cart btn-default">Купить</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="product_item">
+						<div class="product_item-top">
+							<a href="" class="product-name">Лампа СД LED-СВЕЧА на ВЕТРУ-STD 3.5ВТ Е27 4000К 320ЛМ ASD</a>
+						</div>
+						<a href="" class="product_item-img">
+							<img src="img/product-img.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="product_item-bottom">
+							<p class="price">1000 р.</p>
+							<button type="button" class="add-to-cart btn-default">Купить</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="product_item">
+						<div class="product_item-top">
+							<a href="" class="product-name">Лампа СД LED-СВЕЧА на ВЕТРУ-STD 3.5ВТ Е27 4000К 320ЛМ ASD</a>
+						</div>
+						<a href="" class="product_item-img">
+							<img src="img/product-img.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="product_item-bottom">
+							<p class="price">1000 р.</p>
+							<button type="button" class="add-to-cart btn-default">Купить</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="product_item">
+						<div class="product_item-top">
+							<a href="" class="product-name">Лампа СД LED-СВЕЧА на ВЕТРУ-STD 3.5ВТ Е27 4000К 320ЛМ ASD</a>
+						</div>
+						<a href="" class="product_item-img">
+							<img src="img/product-img.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="product_item-bottom">
+							<p class="price">1000 р.</p>
+							<button type="button" class="add-to-cart btn-default">Купить</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-12">
+					<div class="product_item">
+						<div class="product_item-top">
+							<a href="" class="product-name">Лампа СД LED-СВЕЧА на ВЕТРУ-STD 3.5ВТ Е27 4000К 320ЛМ ASD</a>
+						</div>
+						<a href="" class="product_item-img">
+							<img src="img/product-img.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="product_item-bottom">
+							<p class="price">1000 р.</p>
+							<button type="button" class="add-to-cart btn-default">Купить</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="callback" id="callback">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 hidden-sm hidden-xs">
+						<img src="img/callback-img.png" alt="" class="banner-img">
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<p class="large-text">Если у вас возникли затруднения с поиском, вы всегда можете бесплатно связаться с нашим оператором</p>
+						<p>Для этого представьтесь и введите ваш номер телефона.</p> 
+						<p>Оператор свяжется с вами в течении 10 минут</p>
+					</div>
+					<div class="col-md-5 col-sm-6">
+						<form action="" method="post" name="callback-form" id="callback-form" class="callback-form">
+							<input type="text" name="name" placeholder="Как к вам обращаться" pattern="[A-Za-zА-Яа-яЁё]{3,30}">
+							<input type="text" name="phone" placeholder="Введите ваш контактный телефон" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
+							<input type="submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						 <ul class="nav navbar-nav"> 
+		                  	<li><a href="">Каталог</a></li>   
+		                    <li><a href="">Акции</a></li>     
+		                    <li><a href="">О нас</a></li>
+		                    <li><a href="">Статьи</a></li>
+		                    <li><a href="">Оплата и доставка</a></li>
+		                    <li><a href="">Контакты</a></li>
+		                </ul>
+					</div>
+					<div class="col-lg-3 col-md-2 col-sm-6">
+						<span class="phone-number"><i class="fa fa-phone" aria-hidden="true"></i> 8-800-200-20-20</span>
+						<a href="#callback" class="callback-link">Обратный звонок</a>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="copyrights col-md-8 col-sm-7 col-xs-6">
+							<p>Магазин ламп "Лайтикс"</p>
+							<p>(с)2010-2016. Все права защищены.</p>
+						</div>
+						<div class="logo-footer col-md-4 col-sm-5 col-xs-6">
+			            	<a href=""><img src="img/logo-footer.png" class="img-responsive" /></a>
+			       		</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem cum aliquam, quidem exercitationem, ullam laudantium placeat natus ipsa consequatur porro voluptas magni unde iure laborum, in, qui vitae! Maxime, harum.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/bootstrap-select.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
